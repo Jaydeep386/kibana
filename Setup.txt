@@ -1,0 +1,24 @@
+- add ssh key first.
+- clone git.
+
+- "sudo apt update -y && sudo apt upgrade -y"
+- install java
+- "sudo apt install nodejs"
+- "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash"
+- "source ~/.bashrc"
+- "nvm install node"
+- "npm install -g yarn"
+- "nvm install 20.15.1"
+- "sudo apt install -y yarn"
+- "yarn kbn bootstrap" or "yarn kbn bootstrap --force"
+- 'sudo apt install apt-transport-https'
+- 'sudo apt install code # or code-insiders'
+ - "cd OmniSentinel_Shield/kibana/"
+ - "yarn clear cache" or "yarn clear" or "yarn clean"
+ 
+ - "sudo apt update && sudo apt install ruby ruby-dev build-essential -y"
+ - "sudo gem install fpm"
+ 
+ - "yarn build --all-platforms --skip-archives --skip-os-packages --skip-cdn"
+ 
+ - for reset "yarn kbn reset"
