@@ -23040,19 +23040,7 @@ kuler@^2.0.0:
     zod "^3.22.4"
     zod-to-json-schema "^3.22.3"
 
-langsmith@^0.2.0:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/langsmith/-/langsmith-0.2.5.tgz#0e58900bcdfb47409222dd6c8c122c50f5015337"
-  integrity sha512-dA+l7ZEh1Q9Q9FcE39PUSSEMfsFo73R2V81fRo5KSlGNcypOEhoQvv6lbjyZP7MHmt3/9pPcfpuRd5Y4RbFYqQ==
-  dependencies:
-    "@types/uuid" "^10.0.0"
-    commander "^10.0.1"
-    p-queue "^6.6.2"
-    p-retry "4"
-    semver "^7.6.3"
-    uuid "^10.0.0"
-
-langsmith@^0.2.10:
+langsmith@^0.2.0, langsmith@^0.2.10:
   version "0.2.10"
   resolved "https://registry.yarnpkg.com/langsmith/-/langsmith-0.2.10.tgz#cae5ea40a232ae01cedf73575131dd9f89c17260"
   integrity sha512-yuEhRRdQqtXkLVcNxwk2sNFkj4oDvlG1SYZbAXmTM+vlIvxGkT0vWqgLNJLd31+SqxyG3TBPvCCpiYTMCWV8BA==
@@ -25546,20 +25534,7 @@ open@^8.0.9, open@^8.4.0, open@~8.4.0:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
-openai@^4.68.0:
-  version "4.72.0"
-  resolved "https://registry.yarnpkg.com/openai/-/openai-4.72.0.tgz#61630553157a0c9bb1c304b1dd4d2f90e9ec4cf7"
-  integrity sha512-hFqG9BWCs7L7ifrhJXw7mJXmUBr7d9N6If3J9563o0jfwVA4wFANFDDaOIWFdgDdwgCXg5emf0Q+LoLCGszQYA==
-  dependencies:
-    "@types/node" "^18.11.18"
-    "@types/node-fetch" "^2.6.4"
-    abort-controller "^3.0.0"
-    agentkeepalive "^4.2.1"
-    form-data-encoder "1.7.2"
-    formdata-node "^4.3.2"
-    node-fetch "^2.6.7"
-
-openai@^4.76.0:
+openai@^4.68.0, openai@^4.76.0:
   version "4.76.0"
   resolved "https://registry.yarnpkg.com/openai/-/openai-4.76.0.tgz#0ba135ff6452eadbce980c604f98799dfa239325"
   integrity sha512-QBGIetjX1C9xDp5XGa/3mPnfKI9BgAe2xHQX6PmO98wuW9qQaurBaumcYptQWc9LHZZq7cH/Y1Rjnsr6uUDdVw==
@@ -30896,18 +30871,7 @@ tabbable@^5.3.3:
   resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-5.3.3.tgz#aac0ff88c73b22d6c3c5a50b1586310006b47fbf"
   integrity sha512-QD9qKY3StfbZqWOPLp0++pOrAVb/HbUi5xCc8cUo4XjP19808oaMiDzn0leBY5mCespIBM0CIZePzZjgzR83kA==
 
-table@^6.8.0:
-  version "6.8.2"
-  resolved "https://registry.yarnpkg.com/table/-/table-6.8.2.tgz#c5504ccf201213fa227248bdc8c5569716ac6c58"
-  integrity sha512-w2sfv80nrAh2VCbqR5AK27wswXhqcck2AhfnNW76beQXskGZ1V12GwS//yYVa3d3fcvAip2OUnbDAjW2k3v9fA==
-  dependencies:
-    ajv "^8.0.1"
-    lodash.truncate "^4.4.2"
-    slice-ansi "^4.0.0"
-    string-width "^4.2.3"
-    strip-ansi "^6.0.1"
-
-table@^6.9.0:
+table@^6.8.0, table@^6.9.0:
   version "6.9.0"
   resolved "https://registry.yarnpkg.com/table/-/table-6.9.0.tgz#50040afa6264141c7566b3b81d4d82c47a8668f5"
   integrity sha512-9kY+CygyYM6j02t5YFHbNz2FN5QmYGv9zAjVp4lCDjlCw7amdckXlEt/bjMhUIfj4ThGRE4gCUH5+yGnNuPo5A==
